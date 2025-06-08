@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EndingActivityQuiz1"
+    android:background="@drawable/ending_solve">
+
+    <TextView
+        android:id="@+id/Quiz1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:fontFamily="@font/font_1"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:text="챕터1에 나온 횃불의 개수는?"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.115" />
+
+    <EditText
+        android:id="@+id/Quiz1_1"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/font_1"
+        android:gravity="center"
+        android:hint="답을 입력하라"
+        android:textColor="@color/black"
+        android:textColorHint="#333333"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.354"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.894" />
+
+    <android.widget.Button
+        android:id="@+id/Quiz1_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#CCCCCC"
+        android:fontFamily="@font/font_1"
+        android:text="제출"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.671"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.889" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

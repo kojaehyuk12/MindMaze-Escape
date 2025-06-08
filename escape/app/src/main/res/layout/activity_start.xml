@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/start_background"
+    tools:context=".StartActivity">
+
+    <TextView
+        android:id="@+id/storyTextView"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/font_1"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:text="플레이어는 평범한 일상을 살던 중, 어느 날 우연히 발견한 오래된 시계로 인해 시간의 감옥에 갇히게 됩니다.
+        \n\n\n이 시계는 단순한 골동품이 아니라 과거, 현재, 미래의 모든 시간을 연결하는 마법의 시계입니다.
+        \n\n\n제한된 시간 내에 다양한 시간대에서 문제를 해결하고 단서를 찾아, 시계의 저주로부터 탈출하세요!"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:contentDescription="Next"
+        android:src="@drawable/start_ic_next" />
+
+</RelativeLayout>

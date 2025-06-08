@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chapter2_listen_background"
+    tools:context=".Chapter2Listen">
+
+    <EditText
+        android:id="@+id/inputEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_2"
+        android:hint="(???) 안에 들어갈 단어는?"
+        android:textColorHint="#999999"
+        android:textColor="@color/white"
+        android:background="#000033"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.284" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_2"
+        android:text="Submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.683" />
+
+    <TextView
+        android:id="@+id/hiddenTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="비밀번호: 1"
+        android:fontFamily="@font/font_2"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.469" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_2"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.029"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.955" />
+
+    <ScrollView
+        android:layout_width="240dp"
+        android:layout_height="260dp"
+        android:layout_margin="10dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/storyTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/font_2"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:text="In the neon glow, we ride the midnight streets,
+            \nWhere dreams are lost and shadows never sleep.
+            \nWires and circuits, hearts made of steel,
+            \nChasing illusions, searching for what's real.
+
+            \n\nIn this ( ? ? ? ) world, we rise and fall,
+            \nThrough the chaos, we hear the call.
+            \nBroken heroes, we stand our ground,
+            \nIn the echoes of the city's sound.
+
+            \n\nEchoes of whispers in the darkened night,
+            \nBattling demons, holding on so tight.
+            \nDigital ghosts haunt every turn,
+            \nIn the flames of the future, we burn.
+
+            \n\nForgive the sins of yesterday,
+            \nIn the flicker of the screens, we find our way.
+            \nLove and pain, like data streams,
+            \nLost in the labyrinth of neon dreams.
+
+            \n\nIn this ( ? ? ? ) world, we rise and fall,
+            \nThrough the chaos, we hear the call.
+            \nBroken heroes, we stand our ground,
+            \nIn the echoes of the city's sound.
+
+            \n\nAnd when the morning breaks the dawn,
+            \nWe'll be the ones who carry on.
+            \nIn the ( ? ? ? )punk nights, where we belong,
+            \nOur stories live, forever strong." />
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

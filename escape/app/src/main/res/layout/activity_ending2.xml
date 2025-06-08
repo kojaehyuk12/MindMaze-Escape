@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ending2"
+    android:background="@drawable/ending2">
+
+    <ScrollView
+        android:layout_width="500dp"
+        android:layout_height="300dp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="#80FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/font_1"
+            android:textStyle="bold"
+            android:text="시계 저주를 풀기 위해 긴 여정을 떠났지만, 여정의 끝에서 집으로 돌아가기로 결정했다. 시계탑은 여전히 음침하고 불길한 분위기로 압도했지만, 그 저주를 풀지 않고 단지 떠나기로 했다.
+            \n\n집으로 돌아오는 길은 조용하고 평화로웠다. 긴 여정 끝에 다시 집에 도착했을 때, 그리운 일상의 따뜻함을 느낄 수 있었다. 가족들은 반갑게 맞아주었고, 오랜만에 느껴보는 평화로움은 큰 위로가 되었다.
+            \n\n다시 평범한 일상으로 돌아와 매일 아침 햇살을 맞으며 일어나고, 가족과 함께 식사를 하고, 소소한 행복을 즐기며 살았다. 시계 저주는 여전히 존재했지만, 그것을 뒤로 하고 평범한 하루하루를 소중히 여기며 살아가기로 했다. 세상은 여전히 돌아가고, 그 속에서 작은 행복을 찾아갔다.
+            \n\n어느 날 아침, 창밖으로 새소리가 들려왔다. 커피를 마시며 창가에 앉아있는 동안, 서로의 얼굴을 보며 미소를 지었다. 작은 순간들이 더없이 소중하게 느껴졌다. 정원에서 자라나는 꽃들, 아이들의 웃음소리, 그리고 저녁마다 가족과 함께 나누는 식사는 삶의 진정한 의미를 일깨워주었다.
+            \n\n비록 시계의 저주는 풀리지 않았지만, 그것이 삶에 더 이상 중요한 문제가 되지 않게 되었다. 현재의 순간을 즐기며, 미래에 대한 불안보다는 오늘의 행복을 찾기로 했다. 매일매일이 새롭고 소중한 기회로 다가왔고, 그 속에서 새로운 꿈과 희망을 품으며 살아갔다."
+            android:textColor="@color/black"/>
+
+    </ScrollView>
+
+    <android.widget.Button
+        android:id="@+id/backmain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#80FFFFFF"
+        android:fontFamily="@font/font_1"
+        android:text="MAIN"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.975"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.955" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/start_background"
+    tools:context=".StartChapter2Activity">
+
+  <TextView
+      android:id="@+id/storyTextView"
+      android:layout_width="240dp"
+      android:layout_height="wrap_content"
+      android:fontFamily="@font/font_1"
+      android:text="이 편지를 보고 있는 자네가 이미 무사히 탈출했기를 바라네.
+      \n\n이 편지를 읽는 순간 타이머가 시작될 걸세.
+      \n\n타이머가 끝나기 전까지 탈출하지 못하면, 자네는 이 감옥에 영원히 갇히게 될 거야.
+      \n\n이번에도 반드시 탈출해주게.
+      \n\n행운을 빌겠네."
+      android:textSize="18sp"
+      android:textStyle="bold"
+      android:textColor="#333333"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <ImageButton
+      android:id="@+id/nextButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="16dp"
+      android:background="?android:attr/selectableItemBackground"
+      android:contentDescription="Next"
+      android:src="@drawable/start_ic_next"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

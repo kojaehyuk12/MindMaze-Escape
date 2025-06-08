@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chapter1_area_background">
+
+    <ImageView
+        android:id="@+id/popupImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:contentDescription="Popup Image"
+        android:scaleType="fitXY"
+        android:src="@drawable/chapter1_area1_desk" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:paddingVertical="45dp"
+        android:paddingHorizontal="50dp">
+
+        <TextView
+            android:id="@+id/storyTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/font_1"
+            android:textStyle="bold"
+            android:textColor="#550000"
+            android:text="자네, 시계의 저주에 걸려 이 어두운 감옥에 갇히고 말았구나.
+            \n지금 눈앞에 펼쳐진 풍경이 낯설고 무서우리라 생각하네.
+            \n이 저주를 풀기 위해선 여러 방을 탈출해야만 하네.
+            \n이번 방은 한 성의 깊은 곳에 숨겨진 감옥이라네.
+            \n이 감옥을 탈출하려면 퍼즐을 맞춰야만 하지.
+            \n하지만 퍼즐을 맞추지 못할 경우 영영 시간의 감옥 속에 갇히게 된다네.
+            \n여기 퍼즐 조각 하나를 주겠네. 이 조각을 맞춰 감옥의 비밀을 풀어주게.
+            \n부디, 다음 방으로 무사히 넘어오길 바라네.
+            \n행운을 빌겠네."
+            android:textSize="18sp" />
+
+    </ScrollView>
+
+</RelativeLayout>

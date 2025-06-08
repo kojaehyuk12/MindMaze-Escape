@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ending1"
+    android:background="@drawable/ending1">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_1"
+        android:textStyle="bold"
+        android:text="시계 저주를 풀기 위해 긴 여정을 마치고 마침내 시계탑에 도착했다. 시계탑은 음침한 분위기로 나를 압도했고, 거대한 시계는 마치 살아있는 것처럼 불길한 소리를 내며 움직였다. 모든 준비를 마친 후, 시계의 저주를 풀기 위해 주문을 외우기 시작했다.
+        \n\n순간, 시계는 미친 듯이 돌아가기 시작했다. 시간은 앞뒤로 급격히 흐르며 과거와 미래가 뒤섞였다. 사람들은 어린아이에서 노인으로, 다시 어린아이로 변하며 혼란에 빠졌다. 거리와 건물도 형태를 잃고 꿈틀거렸다. 세계는 뒤죽박죽한 혼돈의 소용돌이 속으로 빠져들었다.
+        \n\n필사적으로 시계를 멈추려 했지만, 모든 시도는 헛된 노력일 뿐이었다. 결국, 그 혼돈 속에서 무력하게 휘말리며 눈을 감았다. 세상은 영원히 어지럽혀진 채, 시간의 폭주 속에서 멈추지 않는 혼돈의 세계로 변해버렸다."
+        android:textColor="@color/white"
+        android:background="#80000000"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.widget.Button
+        android:id="@+id/backmain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#80000000"
+        android:fontFamily="@font/font_1"
+        android:text="MAIN"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.975"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.955" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
